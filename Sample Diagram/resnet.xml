@@ -1,0 +1,86 @@
+<mxGraphModel dx="976" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    
+    <!-- Input -->
+    <mxCell id="input" value="Input (160x160x3)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d9e8fb;" vertex="1" parent="1">
+      <mxGeometry x="20" y="20" width="120" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- Initial Conv2D -->
+    <mxCell id="conv2d_initial" value="Conv2D (16, 3x3, Stride=1, Padding=Same)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;" vertex="1" parent="1">
+      <mxGeometry x="20" y="100" width="180" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="input_to_conv2d" edge="1" source="input" target="conv2d_initial" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- BatchNorm Initial -->
+    <mxCell id="batchnorm_initial" value="BatchNorm" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;" vertex="1" parent="1">
+      <mxGeometry x="20" y="180" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="conv2d_to_batchnorm" edge="1" source="conv2d_initial" target="batchnorm_initial" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- ReLU Initial -->
+    <mxCell id="relu_initial" value="ReLU" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;" vertex="1" parent="1">
+      <mxGeometry x="20" y="260" width="80" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="batchnorm_to_relu" edge="1" source="batchnorm_initial" target="relu_initial" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Residual Blocks -->
+    <mxCell id="residual_block" value="Residual Block x6 (Filters: [16, 32, 64], Strides: [2, 2, 2])" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;" vertex="1" parent="1">
+      <mxGeometry x="20" y="360" width="240" height="120" as="geometry" />
+    </mxCell>
+    <mxCell id="relu_to_residual" edge="1" source="relu_initial" target="residual_block" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Shortcut (example for visualization) -->
+    <mxCell id="shortcut" value="Shortcut Adjustment (Conv2D + BatchNorm)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d9ead3;" vertex="1" parent="1">
+      <mxGeometry x="300" y="360" width="180" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="shortcut_connection" edge="1" source="residual_block" target="shortcut" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;dashed=1;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="shortcut_merge" edge="1" source="shortcut" target="residual_block" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- GlobalAveragePooling2D -->
+    <mxCell id="global_avg_pool" value="GlobalAveragePooling2D" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#cfe2f3;" vertex="1" parent="1">
+      <mxGeometry x="20" y="520" width="180" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="residual_to_pool" edge="1" source="residual_block" target="global_avg_pool" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Dense 128 -->
+    <mxCell id="dense_128" value="Dense (128, ReLU)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d9ead3;" vertex="1" parent="1">
+      <mxGeometry x="20" y="600" width="140" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="pool_to_dense" edge="1" source="global_avg_pool" target="dense_128" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Dropout -->
+    <mxCell id="dropout" value="Dropout (0.2)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;" vertex="1" parent="1">
+      <mxGeometry x="20" y="680" width="100" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="dense_to_dropout" edge="1" source="dense_128" target="dropout" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Dense Output -->
+    <mxCell id="dense_output" value="Dense (4, Softmax)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ead1dc;" vertex="1" parent="1">
+      <mxGeometry x="20" y="760" width="140" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="dropout_to_dense_output" edge="1" source="dropout" target="dense_output" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>

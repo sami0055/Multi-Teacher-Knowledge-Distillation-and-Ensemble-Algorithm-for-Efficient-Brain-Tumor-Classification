@@ -1,0 +1,86 @@
+<mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Input -->
+    <mxCell id="input" value="Input" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d9e8fb;" vertex="1" parent="1">
+      <mxGeometry x="20" y="20" width="100" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- Conv2D Layer 1 -->
+    <mxCell id="conv2d_1" value="Conv2D (Filters: N, Kernel: 3x3, Stride: S)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;" vertex="1" parent="1">
+      <mxGeometry x="20" y="100" width="180" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="input_to_conv2d_1" edge="1" source="input" target="conv2d_1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- BatchNorm 1 -->
+    <mxCell id="batchnorm_1" value="BatchNorm" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;" vertex="1" parent="1">
+      <mxGeometry x="20" y="180" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="conv2d_1_to_batchnorm_1" edge="1" source="conv2d_1" target="batchnorm_1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- ReLU 1 -->
+    <mxCell id="relu_1" value="ReLU" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;" vertex="1" parent="1">
+      <mxGeometry x="20" y="260" width="80" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="batchnorm_1_to_relu_1" edge="1" source="batchnorm_1" target="relu_1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Dropout -->
+    <mxCell id="dropout" value="Dropout (Rate: 0.3)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;" vertex="1" parent="1">
+      <mxGeometry x="20" y="340" width="140" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="relu_1_to_dropout" edge="1" source="relu_1" target="dropout" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Conv2D Layer 2 -->
+    <mxCell id="conv2d_2" value="Conv2D (Filters: N, Kernel: 3x3, Stride: 1)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;" vertex="1" parent="1">
+      <mxGeometry x="20" y="420" width="180" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="dropout_to_conv2d_2" edge="1" source="dropout" target="conv2d_2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- BatchNorm 2 -->
+    <mxCell id="batchnorm_2" value="BatchNorm" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;" vertex="1" parent="1">
+      <mxGeometry x="20" y="500" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="conv2d_2_to_batchnorm_2" edge="1" source="conv2d_2" target="batchnorm_2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Shortcut Path -->
+    <mxCell id="shortcut_conv" value="Shortcut (Conv2D, BatchNorm)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d9ead3;" vertex="1" parent="1">
+      <mxGeometry x="220" y="180" width="180" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="input_to_shortcut" edge="1" source="input" target="shortcut_conv" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;dashed=1;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Merge Path -->
+    <mxCell id="merge" value="Add (Main + Shortcut)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#cfe2f3;" vertex="1" parent="1">
+      <mxGeometry x="120" y="580" width="160" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="batchnorm_2_to_merge" edge="1" source="batchnorm_2" target="merge" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="shortcut_to_merge" edge="1" source="shortcut_conv" target="merge" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- ReLU Output -->
+    <mxCell id="relu_output" value="ReLU" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;" vertex="1" parent="1">
+      <mxGeometry x="120" y="660" width="80" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="merge_to_relu" edge="1" source="merge" target="relu_output" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
