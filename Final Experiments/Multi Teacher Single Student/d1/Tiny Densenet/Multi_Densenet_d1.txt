@@ -1,0 +1,594 @@
+
+Epoch 1/350 loss: 3.1359 - accuracy: 0.6954 - precision: 0.7924 - recall: 0.5648 - val_loss: 3.5110 - val_accuracy: 0.4076 - val_precision: 0.4350 - val_recall: 0.3374
+Validation loss improved from inf to 3.5110. Saving model.
+Epoch 1 duration: 124.95 seconds
+
+
+Epoch 2/350 loss: 2.9995 - accuracy: 0.8062 - precision: 0.8411 - recall: 0.7628 - val_loss: 3.8431 - val_accuracy: 0.3496 - val_precision: 0.3546 - val_recall: 0.3481
+No improvement in validation loss. Patience: 1/30
+Epoch 2 duration: 109.42 seconds
+
+
+Epoch 3/350 loss: 2.9736 - accuracy: 0.8255 - precision: 0.8499 - recall: 0.7941 - val_loss: 3.9515 - val_accuracy: 0.3832 - val_precision: 0.3825 - val_recall: 0.3802
+No improvement in validation loss. Patience: 2/30
+Epoch 3 duration: 109.43 seconds
+
+
+Epoch 4/350 loss: 2.9405 - accuracy: 0.8456 - precision: 0.8655 - recall: 0.8200 - val_loss: 3.1689 - val_accuracy: 0.7084 - val_precision: 0.7161 - val_recall: 0.6931
+Validation loss improved from 3.5110 to 3.1689. Saving model.
+Epoch 4 duration: 108.58 seconds
+
+
+Epoch 5/350 loss: 2.9130 - accuracy: 0.8731 - precision: 0.8881 - recall: 0.8561 - val_loss: 3.0568 - val_accuracy: 0.7466 - val_precision: 0.7607 - val_recall: 0.7328
+Validation loss improved from 3.1689 to 3.0568. Saving model.
+Epoch 5 duration: 108.47 seconds
+
+
+Epoch 6/350 loss: 2.8982 - accuracy: 0.8808 - precision: 0.8958 - recall: 0.8641 - val_loss: 3.2415 - val_accuracy: 0.5847 - val_precision: 0.5920 - val_recall: 0.5649
+No improvement in validation loss. Patience: 1/30
+Epoch 6 duration: 108.40 seconds
+
+
+Epoch 7/350 loss: 2.8904 - accuracy: 0.8834 - precision: 0.8945 - recall: 0.8697 - val_loss: 3.5838 - val_accuracy: 0.5435 - val_precision: 0.5649 - val_recall: 0.5252
+No improvement in validation loss. Patience: 2/30
+Epoch 7 duration: 108.39 seconds
+
+
+Epoch 8/350 loss: 2.8705 - accuracy: 0.9000 - precision: 0.9117 - recall: 0.8873 - val_loss: 3.2770 - val_accuracy: 0.7038 - val_precision: 0.7062 - val_recall: 0.6824
+No improvement in validation loss. Patience: 3/30
+Epoch 8 duration: 108.54 seconds
+
+
+Epoch 9/350 loss: 2.8532 - accuracy: 0.9160 - precision: 0.9239 - recall: 0.9053 - val_loss: 3.4712 - val_accuracy: 0.5908 - val_precision: 0.6025 - val_recall: 0.5786
+No improvement in validation loss. Patience: 4/30
+Epoch 9 duration: 108.48 seconds
+
+
+Epoch 10/350 loss: 2.8608 - accuracy: 0.9090 - precision: 0.9161 - recall: 0.8983 - val_loss: 3.3272 - val_accuracy: 0.6214 - val_precision: 0.6393 - val_recall: 0.6061
+No improvement in validation loss. Patience: 5/30
+Epoch 10 duration: 108.55 seconds
+
+
+Epoch 11/350 loss: 2.8404 - accuracy: 0.9177 - precision: 0.9248 - recall: 0.9109 - val_loss: 3.0443 - val_accuracy: 0.7802 - val_precision: 0.7823 - val_recall: 0.7679
+Validation loss improved from 3.0568 to 3.0443. Saving model.
+Epoch 11 duration: 108.76 seconds
+
+
+Epoch 12/350 loss: 2.8401 - accuracy: 0.9221 - precision: 0.9291 - recall: 0.9130 - val_loss: 2.8838 - val_accuracy: 0.8916 - val_precision: 0.9033 - val_recall: 0.8840
+Validation loss improved from 3.0443 to 2.8838. Saving model.
+Epoch 12 duration: 108.66 seconds
+
+
+Epoch 13/350 loss: 2.8277 - accuracy: 0.9287 - precision: 0.9348 - recall: 0.9240 - val_loss: 3.3434 - val_accuracy: 0.6611 - val_precision: 0.6719 - val_recall: 0.6565
+No improvement in validation loss. Patience: 1/30
+Epoch 13 duration: 108.80 seconds
+
+
+Epoch 14/350 loss: 2.8198 - accuracy: 0.9371 - precision: 0.9430 - recall: 0.9298 - val_loss: 2.9972 - val_accuracy: 0.8153 - val_precision: 0.8315 - val_recall: 0.7908
+No improvement in validation loss. Patience: 2/30
+Epoch 14 duration: 108.51 seconds
+
+
+Epoch 15/350 loss: 2.8145 - accuracy: 0.9342 - precision: 0.9402 - recall: 0.9284 - val_loss: 3.0306 - val_accuracy: 0.8153 - val_precision: 0.8199 - val_recall: 0.8061
+No improvement in validation loss. Patience: 3/30
+Epoch 15 duration: 108.44 seconds
+
+
+Epoch 16/350 loss: 2.8129 - accuracy: 0.9375 - precision: 0.9429 - recall: 0.9336 - val_loss: 3.4867 - val_accuracy: 0.6489 - val_precision: 0.6625 - val_recall: 0.6443
+No improvement in validation loss. Patience: 4/30
+Epoch 16 duration: 108.65 seconds
+
+
+Epoch 17/350 loss: 2.8135 - accuracy: 0.9415 - precision: 0.9463 - recall: 0.9371 - val_loss: 3.1900 - val_accuracy: 0.7023 - val_precision: 0.7055 - val_recall: 0.7023
+No improvement in validation loss. Patience: 5/30
+Epoch 17 duration: 108.61 seconds
+
+
+Epoch 18/350 loss: 2.8048 - accuracy: 0.9466 - precision: 0.9504 - recall: 0.9428 - val_loss: 3.0414 - val_accuracy: 0.7802 - val_precision: 0.7831 - val_recall: 0.7771
+No improvement in validation loss. Patience: 6/30
+Epoch 18 duration: 108.72 seconds
+
+
+Epoch 19/350 loss: 2.8034 - accuracy: 0.9450 - precision: 0.9486 - recall: 0.9403 - val_loss: 3.0302 - val_accuracy: 0.8366 - val_precision: 0.8478 - val_recall: 0.8336
+No improvement in validation loss. Patience: 7/30
+Epoch 19 duration: 108.59 seconds
+
+
+Epoch 20/350 loss: 2.7975 - accuracy: 0.9499 - precision: 0.9534 - recall: 0.9464 - val_loss: 2.8953 - val_accuracy: 0.8702 - val_precision: 0.8737 - val_recall: 0.8656
+No improvement in validation loss. Patience: 8/30
+Epoch 20 duration: 108.72 seconds
+
+
+Epoch 21/350 loss: 2.7952 - accuracy: 0.9484 - precision: 0.9507 - recall: 0.9452 - val_loss: 2.8693 - val_accuracy: 0.9038 - val_precision: 0.9037 - val_recall: 0.9023
+Validation loss improved from 2.8838 to 2.8693. Saving model.
+Epoch 21 duration: 108.93 seconds
+
+
+Epoch 22/350 loss: 2.7920 - accuracy: 0.9526 - precision: 0.9561 - recall: 0.9498 - val_loss: 3.1832 - val_accuracy: 0.7191 - val_precision: 0.7204 - val_recall: 0.7160
+No improvement in validation loss. Patience: 1/30
+Epoch 22 duration: 108.65 seconds
+
+
+Epoch 23/350 loss: 2.7790 - accuracy: 0.9650 - precision: 0.9683 - recall: 0.9622 - val_loss: 2.8543 - val_accuracy: 0.9237 - val_precision: 0.9245 - val_recall: 0.9160
+Validation loss improved from 2.8693 to 2.8543. Saving model.
+Epoch 23 duration: 108.78 seconds
+
+
+Epoch 24/350 loss: 2.7907 - accuracy: 0.9527 - precision: 0.9550 - recall: 0.9508 - val_loss: 2.9076 - val_accuracy: 0.8824 - val_precision: 0.8823 - val_recall: 0.8809
+No improvement in validation loss. Patience: 1/30
+Epoch 24 duration: 108.87 seconds
+
+
+Epoch 25/350 loss: 2.7878 - accuracy: 0.9554 - precision: 0.9586 - recall: 0.9538 - val_loss: 3.0817 - val_accuracy: 0.7954 - val_precision: 0.8016 - val_recall: 0.7893
+No improvement in validation loss. Patience: 2/30
+Epoch 25 duration: 108.98 seconds
+
+
+Epoch 26/350 loss: 2.7741 - accuracy: 0.9648 - precision: 0.9661 - recall: 0.9629 - val_loss: 2.8753 - val_accuracy: 0.9099 - val_precision: 0.9132 - val_recall: 0.8992
+No improvement in validation loss. Patience: 3/30
+Epoch 26 duration: 108.96 seconds
+
+
+Epoch 27/350 loss: 2.7723 - accuracy: 0.9674 - precision: 0.9693 - recall: 0.9631 - val_loss: 3.0202 - val_accuracy: 0.8076 - val_precision: 0.8089 - val_recall: 0.8076
+No improvement in validation loss. Patience: 4/30
+Epoch 27 duration: 108.72 seconds
+
+
+Epoch 28/350 loss: 2.7909 - accuracy: 0.9531 - precision: 0.9553 - recall: 0.9505 - val_loss: 2.8819 - val_accuracy: 0.8901 - val_precision: 0.8897 - val_recall: 0.8870
+No improvement in validation loss. Patience: 5/30
+Epoch 28 duration: 109.03 seconds
+
+
+Epoch 29/350 loss: 2.7766 - accuracy: 0.9650 - precision: 0.9669 - recall: 0.9617 - val_loss: 2.9280 - val_accuracy: 0.8626 - val_precision: 0.8637 - val_recall: 0.8611
+No improvement in validation loss. Patience: 6/30
+Epoch 29 duration: 108.86 seconds
+
+
+Epoch 30/350 loss: 2.7794 - accuracy: 0.9629 - precision: 0.9655 - recall: 0.9601 - val_loss: 3.4281 - val_accuracy: 0.5969 - val_precision: 0.5997 - val_recall: 0.5969
+No improvement in validation loss. Patience: 7/30
+Epoch 30 duration: 108.79 seconds
+
+
+Epoch 31/350 loss: 2.7660 - accuracy: 0.9716 - precision: 0.9736 - recall: 0.9701 - val_loss: 2.9350 - val_accuracy: 0.8870 - val_precision: 0.8906 - val_recall: 0.8824
+No improvement in validation loss. Patience: 8/30
+Epoch 31 duration: 108.95 seconds
+
+
+Epoch 32/350 loss: 2.7674 - accuracy: 0.9681 - precision: 0.9711 - recall: 0.9664 - val_loss: 3.6547 - val_accuracy: 0.6427 - val_precision: 0.6475 - val_recall: 0.6366
+No improvement in validation loss. Patience: 9/30
+Epoch 32 duration: 109.21 seconds
+
+
+Epoch 33/350 loss: 2.7665 - accuracy: 0.9692 - precision: 0.9705 - recall: 0.9678 - val_loss: 3.0144 - val_accuracy: 0.8122 - val_precision: 0.8154 - val_recall: 0.8092
+No improvement in validation loss. Patience: 10/30
+Epoch 33 duration: 109.03 seconds
+
+
+Epoch 34/350 loss: 2.7735 - accuracy: 0.9652 - precision: 0.9658 - recall: 0.9629 - val_loss: 2.9556 - val_accuracy: 0.8672 - val_precision: 0.8733 - val_recall: 0.8626
+No improvement in validation loss. Patience: 11/30
+Epoch 34 duration: 108.95 seconds
+
+
+Epoch 35/350 loss: 2.7661 - accuracy: 0.9683 - precision: 0.9705 - recall: 0.9669 - val_loss: 2.8595 - val_accuracy: 0.8962 - val_precision: 0.8960 - val_recall: 0.8947
+No improvement in validation loss. Patience: 12/30
+Epoch 35 duration: 109.24 seconds
+
+
+Epoch 36/350 loss: 2.7629 - accuracy: 0.9715 - precision: 0.9730 - recall: 0.9699 - val_loss: 3.2412 - val_accuracy: 0.6870 - val_precision: 0.6975 - val_recall: 0.6794
+No improvement in validation loss. Patience: 13/30
+Epoch 36 duration: 108.94 seconds
+
+
+Epoch 37/350 loss: 2.7595 - accuracy: 0.9732 - precision: 0.9752 - recall: 0.9718 - val_loss: 2.8245 - val_accuracy: 0.9420 - val_precision: 0.9449 - val_recall: 0.9420
+Validation loss improved from 2.8543 to 2.8245. Saving model.
+Epoch 37 duration: 109.68 seconds
+
+
+Epoch 38/350 loss: 2.7632 - accuracy: 0.9699 - precision: 0.9719 - recall: 0.9690 - val_loss: 2.8153 - val_accuracy: 0.9405 - val_precision: 0.9447 - val_recall: 0.9389
+Validation loss improved from 2.8245 to 2.8153. Saving model.
+Epoch 38 duration: 109.15 seconds
+
+
+Epoch 39/350 loss: 2.7662 - accuracy: 0.9697 - precision: 0.9714 - recall: 0.9680 - val_loss: 2.8128 - val_accuracy: 0.9496 - val_precision: 0.9496 - val_recall: 0.9496
+Validation loss improved from 2.8153 to 2.8128. Saving model.
+Epoch 39 duration: 109.48 seconds
+
+
+Epoch 40/350 loss: 2.7476 - accuracy: 0.9830 - precision: 0.9837 - recall: 0.9820 - val_loss: 2.8595 - val_accuracy: 0.9084 - val_precision: 0.9109 - val_recall: 0.9053
+No improvement in validation loss. Patience: 1/30
+Epoch 40 duration: 109.02 seconds
+
+
+Epoch 41/350 loss: 2.7603 - accuracy: 0.9723 - precision: 0.9735 - recall: 0.9699 - val_loss: 2.9995 - val_accuracy: 0.8489 - val_precision: 0.8521 - val_recall: 0.8443
+No improvement in validation loss. Patience: 2/30
+Epoch 41 duration: 109.03 seconds
+
+
+Epoch 42/350 loss: 2.7588 - accuracy: 0.9757 - precision: 0.9765 - recall: 0.9748 - val_loss: 2.9627 - val_accuracy: 0.8534 - val_precision: 0.8596 - val_recall: 0.8504
+No improvement in validation loss. Patience: 3/30
+Epoch 42 duration: 109.03 seconds
+
+
+Epoch 43/350 loss: 2.7569 - accuracy: 0.9755 - precision: 0.9770 - recall: 0.9741 - val_loss: 3.1324 - val_accuracy: 0.8214 - val_precision: 0.8207 - val_recall: 0.8107
+No improvement in validation loss. Patience: 4/30
+Epoch 43 duration: 109.03 seconds
+
+
+Epoch 44/350 loss: 2.7540 - accuracy: 0.9778 - precision: 0.9789 - recall: 0.9764 - val_loss: 3.0473 - val_accuracy: 0.8534 - val_precision: 0.8560 - val_recall: 0.8534
+No improvement in validation loss. Patience: 5/30
+Epoch 44 duration: 108.99 seconds
+
+
+Epoch 45/350 loss: 2.7579 - accuracy: 0.9736 - precision: 0.9746 - recall: 0.9722 - val_loss: 2.8917 - val_accuracy: 0.8992 - val_precision: 0.9003 - val_recall: 0.8962
+No improvement in validation loss. Patience: 6/30
+Epoch 45 duration: 109.00 seconds
+
+
+Epoch 46/350 loss: 2.7477 - accuracy: 0.9821 - precision: 0.9835 - recall: 0.9811 - val_loss: 3.0534 - val_accuracy: 0.8580 - val_precision: 0.8642 - val_recall: 0.8550
+No improvement in validation loss. Patience: 7/30
+Epoch 46 duration: 109.38 seconds
+
+
+Epoch 47/350 loss: 2.7551 - accuracy: 0.9757 - precision: 0.9768 - recall: 0.9750 - val_loss: 3.0261 - val_accuracy: 0.8290 - val_precision: 0.8328 - val_recall: 0.8290
+No improvement in validation loss. Patience: 8/30
+Epoch 47 duration: 109.02 seconds
+
+
+Epoch 48/350 loss: 2.7558 - accuracy: 0.9772 - precision: 0.9791 - recall: 0.9765 - val_loss: 3.3731 - val_accuracy: 0.7405 - val_precision: 0.7419 - val_recall: 0.7374
+No improvement in validation loss. Patience: 9/30
+Epoch 48 duration: 108.97 seconds
+
+
+Epoch 49/350 loss: 2.7553 - accuracy: 0.9762 - precision: 0.9775 - recall: 0.9751 - val_loss: 2.8234 - val_accuracy: 0.9298 - val_precision: 0.9340 - val_recall: 0.9298
+No improvement in validation loss. Patience: 10/30
+Epoch 49 duration: 109.09 seconds
+
+
+Epoch 50/350 loss: 2.7465 - accuracy: 0.9827 - precision: 0.9844 - recall: 0.9820 - val_loss: 2.9107 - val_accuracy: 0.8885 - val_precision: 0.8954 - val_recall: 0.8885
+No improvement in validation loss. Patience: 11/30
+Epoch 50 duration: 109.15 seconds
+
+
+Epoch 51/350 loss: 2.7444 - accuracy: 0.9835 - precision: 0.9840 - recall: 0.9828 - val_loss: 2.8006 - val_accuracy: 0.9542 - val_precision: 0.9542 - val_recall: 0.9542
+Validation loss improved from 2.8128 to 2.8006. Saving model.
+Epoch 51 duration: 109.25 seconds
+
+
+Epoch 52/350 loss: 2.7513 - accuracy: 0.9786 - precision: 0.9805 - recall: 0.9778 - val_loss: 2.9325 - val_accuracy: 0.8824 - val_precision: 0.8833 - val_recall: 0.8779
+No improvement in validation loss. Patience: 1/30
+Epoch 52 duration: 109.33 seconds
+
+
+Epoch 53/350 loss: 2.7506 - accuracy: 0.9807 - precision: 0.9816 - recall: 0.9797 - val_loss: 3.6366 - val_accuracy: 0.7115 - val_precision: 0.7176 - val_recall: 0.7099
+No improvement in validation loss. Patience: 2/30
+Epoch 53 duration: 109.31 seconds
+
+
+Epoch 54/350 loss: 2.7488 - accuracy: 0.9820 - precision: 0.9832 - recall: 0.9814 - val_loss: 2.8633 - val_accuracy: 0.9328 - val_precision: 0.9328 - val_recall: 0.9328
+No improvement in validation loss. Patience: 3/30
+Epoch 54 duration: 109.21 seconds
+
+
+Epoch 55/350 loss: 2.7509 - accuracy: 0.9797 - precision: 0.9803 - recall: 0.9781 - val_loss: 2.8204 - val_accuracy: 0.9450 - val_precision: 0.9465 - val_recall: 0.9450
+No improvement in validation loss. Patience: 4/30
+Epoch 55 duration: 109.17 seconds
+
+
+Epoch 56/350 loss: 2.7450 - accuracy: 0.9832 - precision: 0.9849 - recall: 0.9827 - val_loss: 2.8363 - val_accuracy: 0.9282 - val_precision: 0.9293 - val_recall: 0.9237
+No improvement in validation loss. Patience: 5/30
+Epoch 56 duration: 109.29 seconds
+
+
+Epoch 57/350 loss: 2.7430 - accuracy: 0.9851 - precision: 0.9858 - recall: 0.9842 - val_loss: 3.1844 - val_accuracy: 0.8260 - val_precision: 0.8295 - val_recall: 0.8244
+No improvement in validation loss. Patience: 6/30
+Epoch 57 duration: 109.11 seconds
+
+
+Epoch 58/350 loss: 2.7523 - accuracy: 0.9790 - precision: 0.9793 - recall: 0.9779 - val_loss: 2.8277 - val_accuracy: 0.9389 - val_precision: 0.9388 - val_recall: 0.9374
+No improvement in validation loss. Patience: 7/30
+Epoch 58 duration: 109.25 seconds
+
+
+Epoch 59/350 loss: 2.7426 - accuracy: 0.9862 - precision: 0.9867 - recall: 0.9855 - val_loss: 3.4602 - val_accuracy: 0.7389 - val_precision: 0.7426 - val_recall: 0.7313
+No improvement in validation loss. Patience: 8/30
+Epoch 59 duration: 109.59 seconds
+
+
+Epoch 60/350 loss: 2.7431 - accuracy: 0.9842 - precision: 0.9851 - recall: 0.9839 - val_loss: 2.8228 - val_accuracy: 0.9435 - val_precision: 0.9434 - val_recall: 0.9420
+No improvement in validation loss. Patience: 9/30
+Epoch 60 duration: 109.26 seconds
+
+
+Epoch 61/350 loss: 2.7424 - accuracy: 0.9879 - precision: 0.9884 - recall: 0.9874 - val_loss: 2.8195 - val_accuracy: 0.9496 - val_precision: 0.9494 - val_recall: 0.9450
+No improvement in validation loss. Patience: 10/30
+Epoch 61 duration: 109.23 seconds
+
+
+Epoch 62/350 loss: 2.7496 - accuracy: 0.9806 - precision: 0.9807 - recall: 0.9802 - val_loss: 2.9292 - val_accuracy: 0.8870 - val_precision: 0.8909 - val_recall: 0.8855
+No improvement in validation loss. Patience: 11/30
+Epoch 62 duration: 109.26 seconds
+
+
+Epoch 63/350 loss: 2.7491 - accuracy: 0.9786 - precision: 0.9797 - recall: 0.9786 - val_loss: 3.2693 - val_accuracy: 0.8122 - val_precision: 0.8119 - val_recall: 0.8107
+No improvement in validation loss. Patience: 12/30
+Epoch 63 duration: 109.32 seconds
+
+
+Epoch 64/350 loss: 2.7389 - accuracy: 0.9881 - precision: 0.9888 - recall: 0.9872 - val_loss: 2.9222 - val_accuracy: 0.9191 - val_precision: 0.9188 - val_recall: 0.9160
+No improvement in validation loss. Patience: 13/30
+Epoch 64 duration: 109.27 seconds
+
+
+Epoch 65/350 loss: 2.7462 - accuracy: 0.9832 - precision: 0.9842 - recall: 0.9825 - val_loss: 2.9164 - val_accuracy: 0.8901 - val_precision: 0.8914 - val_recall: 0.8901
+No improvement in validation loss. Patience: 14/30
+Epoch 65 duration: 109.56 seconds
+
+
+Epoch 66/350 loss: 2.7431 - accuracy: 0.9856 - precision: 0.9863 - recall: 0.9853 - val_loss: 2.9518 - val_accuracy: 0.8931 - val_precision: 0.8931 - val_recall: 0.8931
+No improvement in validation loss. Patience: 15/30
+Epoch 66 duration: 109.78 seconds
+
+
+Epoch 67/350 loss: 2.7454 - accuracy: 0.9842 - precision: 0.9849 - recall: 0.9839 - val_loss: 3.0781 - val_accuracy: 0.8351 - val_precision: 0.8400 - val_recall: 0.8336
+No improvement in validation loss. Patience: 16/30
+Epoch 67 duration: 109.32 seconds
+
+
+Epoch 68/350 loss: 2.7378 - accuracy: 0.9886 - precision: 0.9888 - recall: 0.9881 - val_loss: 2.8278 - val_accuracy: 0.9405 - val_precision: 0.9419 - val_recall: 0.9405
+No improvement in validation loss. Patience: 17/30
+Epoch 68 duration: 109.67 seconds
+
+
+Epoch 69/350 loss: 2.7407 - accuracy: 0.9867 - precision: 0.9874 - recall: 0.9862 - val_loss: 2.8699 - val_accuracy: 0.9160 - val_precision: 0.9160 - val_recall: 0.9160
+No improvement in validation loss. Patience: 18/30
+Epoch 69 duration: 109.43 seconds
+
+
+Epoch 70/350 loss: 2.7402 - accuracy: 0.9853 - precision: 0.9863 - recall: 0.9849 - val_loss: 2.9177 - val_accuracy: 0.8794 - val_precision: 0.8834 - val_recall: 0.8794
+No improvement in validation loss. Patience: 19/30
+Epoch 70 duration: 109.44 seconds
+
+
+Epoch 71/350 loss: 2.7591 - accuracy: 0.9748 - precision: 0.9760 - recall: 0.9739 - val_loss: 2.7814 - val_accuracy: 0.9710 - val_precision: 0.9740 - val_recall: 0.9710
+Validation loss improved from 2.8006 to 2.7814. Saving model.
+Epoch 71 duration: 109.75 seconds
+
+
+Epoch 72/350 loss: 2.7380 - accuracy: 0.9886 - precision: 0.9890 - recall: 0.9876 - val_loss: 2.7676 - val_accuracy: 0.9756 - val_precision: 0.9771 - val_recall: 0.9756
+Validation loss improved from 2.7814 to 2.7676. Saving model.
+Epoch 72 duration: 109.87 seconds
+
+
+Epoch 73/350 loss: 2.7343 - accuracy: 0.9904 - precision: 0.9911 - recall: 0.9898 - val_loss: 3.2046 - val_accuracy: 0.8153 - val_precision: 0.8153 - val_recall: 0.8153
+No improvement in validation loss. Patience: 1/30
+Epoch 73 duration: 109.55 seconds
+
+
+Epoch 74/350 loss: 2.7400 - accuracy: 0.9883 - precision: 0.9884 - recall: 0.9877 - val_loss: 2.8008 - val_accuracy: 0.9603 - val_precision: 0.9603 - val_recall: 0.9603
+No improvement in validation loss. Patience: 2/30
+Epoch 74 duration: 109.16 seconds
+
+
+Epoch 75/350 loss: 2.7362 - accuracy: 0.9900 - precision: 0.9909 - recall: 0.9897 - val_loss: 2.7514 - val_accuracy: 0.9863 - val_precision: 0.9863 - val_recall: 0.9863
+Validation loss improved from 2.7676 to 2.7514. Saving model.
+Epoch 75 duration: 109.45 seconds
+
+
+Epoch 76/350 loss: 2.7336 - accuracy: 0.9905 - precision: 0.9911 - recall: 0.9902 - val_loss: 2.8292 - val_accuracy: 0.9405 - val_precision: 0.9418 - val_recall: 0.9389
+No improvement in validation loss. Patience: 1/30
+Epoch 76 duration: 109.29 seconds
+
+
+Epoch 77/350 loss: 2.7373 - accuracy: 0.9881 - precision: 0.9884 - recall: 0.9876 - val_loss: 2.8251 - val_accuracy: 0.9542 - val_precision: 0.9542 - val_recall: 0.9542
+No improvement in validation loss. Patience: 2/30
+Epoch 77 duration: 109.40 seconds
+
+
+Epoch 78/350 loss: 2.7447 - accuracy: 0.9816 - precision: 0.9825 - recall: 0.9813 - val_loss: 2.7967 - val_accuracy: 0.9542 - val_precision: 0.9557 - val_recall: 0.9542
+No improvement in validation loss. Patience: 3/30
+Epoch 78 duration: 109.12 seconds
+
+
+Epoch 79/350 loss: 2.7428 - accuracy: 0.9863 - precision: 0.9870 - recall: 0.9862 - val_loss: 2.8222 - val_accuracy: 0.9466 - val_precision: 0.9466 - val_recall: 0.9466
+No improvement in validation loss. Patience: 4/30
+Epoch 79 duration: 109.79 seconds
+
+
+Epoch 80/350 loss: 2.7400 - accuracy: 0.9870 - precision: 0.9874 - recall: 0.9867 - val_loss: 2.7857 - val_accuracy: 0.9649 - val_precision: 0.9649 - val_recall: 0.9649
+No improvement in validation loss. Patience: 5/30
+Epoch 80 duration: 109.32 seconds
+
+
+Epoch 81/350 loss: 2.7383 - accuracy: 0.9883 - precision: 0.9886 - recall: 0.9881 - val_loss: 2.9601 - val_accuracy: 0.9130 - val_precision: 0.9156 - val_recall: 0.9115
+No improvement in validation loss. Patience: 6/30
+Epoch 81 duration: 109.67 seconds
+
+
+Epoch 82/350 loss: 2.7407 - accuracy: 0.9865 - precision: 0.9869 - recall: 0.9858 - val_loss: 2.8217 - val_accuracy: 0.9389 - val_precision: 0.9389 - val_recall: 0.9389
+No improvement in validation loss. Patience: 7/30
+Epoch 82 duration: 109.50 seconds
+
+
+Epoch 83/350 loss: 2.7389 - accuracy: 0.9874 - precision: 0.9876 - recall: 0.9872 - val_loss: 2.8261 - val_accuracy: 0.9588 - val_precision: 0.9588 - val_recall: 0.9588
+No improvement in validation loss. Patience: 8/30
+Epoch 83 duration: 109.33 seconds
+
+
+Epoch 84/350 loss: 2.7415 - accuracy: 0.9853 - precision: 0.9860 - recall: 0.9849 - val_loss: 2.7748 - val_accuracy: 0.9740 - val_precision: 0.9740 - val_recall: 0.9740
+No improvement in validation loss. Patience: 9/30
+Epoch 84 duration: 109.65 seconds
+
+
+Epoch 85/350 loss: 2.7361 - accuracy: 0.9890 - precision: 0.9897 - recall: 0.9886 - val_loss: 2.8294 - val_accuracy: 0.9557 - val_precision: 0.9557 - val_recall: 0.9557
+No improvement in validation loss. Patience: 10/30
+Epoch 85 duration: 109.67 seconds
+
+
+Epoch 86/350 loss: 2.7368 - accuracy: 0.9890 - precision: 0.9890 - recall: 0.9886 - val_loss: 2.7753 - val_accuracy: 0.9725 - val_precision: 0.9739 - val_recall: 0.9695
+No improvement in validation loss. Patience: 11/30
+Epoch 86 duration: 109.28 seconds
+
+
+Epoch 87/350 loss: 2.7382 - accuracy: 0.9867 - precision: 0.9870 - recall: 0.9860 - val_loss: 2.8338 - val_accuracy: 0.9420 - val_precision: 0.9420 - val_recall: 0.9420
+No improvement in validation loss. Patience: 12/30
+Epoch 87 duration: 109.77 seconds
+
+
+Epoch 88/350 loss: 2.7404 - accuracy: 0.9867 - precision: 0.9874 - recall: 0.9862 - val_loss: 2.8617 - val_accuracy: 0.9206 - val_precision: 0.9218 - val_recall: 0.9176
+No improvement in validation loss. Patience: 13/30
+Epoch 88 duration: 109.54 seconds
+
+
+Epoch 89/350 loss: 2.7375 - accuracy: 0.9872 - precision: 0.9877 - recall: 0.9869 - val_loss: 2.7469 - val_accuracy: 0.9847 - val_precision: 0.9847 - val_recall: 0.9847
+Validation loss improved from 2.7514 to 2.7469. Saving model.
+Epoch 89 duration: 109.75 seconds
+
+
+Epoch 90/350 loss: 2.7308 - accuracy: 0.9935 - precision: 0.9939 - recall: 0.9935 - val_loss: 2.7713 - val_accuracy: 0.9725 - val_precision: 0.9740 - val_recall: 0.9725
+No improvement in validation loss. Patience: 1/30
+Epoch 90 duration: 109.60 seconds
+
+
+Epoch 91/350 loss: 2.7340 - accuracy: 0.9898 - precision: 0.9905 - recall: 0.9895 - val_loss: 2.8846 - val_accuracy: 0.9191 - val_precision: 0.9247 - val_recall: 0.9191
+No improvement in validation loss. Patience: 2/30
+Epoch 91 duration: 109.23 seconds
+
+
+Epoch 92/350 loss: 2.7379 - accuracy: 0.9888 - precision: 0.9891 - recall: 0.9886 - val_loss: 2.7988 - val_accuracy: 0.9496 - val_precision: 0.9496 - val_recall: 0.9496
+No improvement in validation loss. Patience: 3/30
+Epoch 92 duration: 109.33 seconds
+
+
+Epoch 93/350 loss: 2.7401 - accuracy: 0.9877 - precision: 0.9883 - recall: 0.9874 - val_loss: 4.6839 - val_accuracy: 0.6015 - val_precision: 0.6037 - val_recall: 0.6000
+No improvement in validation loss. Patience: 4/30
+Epoch 93 duration: 109.36 seconds
+
+
+Epoch 94/350 loss: 2.7353 - accuracy: 0.9881 - precision: 0.9886 - recall: 0.9877 - val_loss: 2.7810 - val_accuracy: 0.9664 - val_precision: 0.9664 - val_recall: 0.9649
+No improvement in validation loss. Patience: 5/30
+Epoch 94 duration: 109.61 seconds
+
+
+Epoch 95/350 loss: 2.7288 - accuracy: 0.9940 - precision: 0.9942 - recall: 0.9939 - val_loss: 2.7938 - val_accuracy: 0.9618 - val_precision: 0.9618 - val_recall: 0.9618
+No improvement in validation loss. Patience: 6/30
+Epoch 95 duration: 109.34 seconds
+
+
+Epoch 96/350 loss: 2.7308 - accuracy: 0.9923 - precision: 0.9926 - recall: 0.9921 - val_loss: 2.8838 - val_accuracy: 0.9252 - val_precision: 0.9266 - val_recall: 0.9252
+No improvement in validation loss. Patience: 7/30
+Epoch 96 duration: 109.53 seconds
+
+
+Epoch 97/350 loss: 2.7387 - accuracy: 0.9874 - precision: 0.9877 - recall: 0.9870 - val_loss: 2.8231 - val_accuracy: 0.9603 - val_precision: 0.9603 - val_recall: 0.9603
+No improvement in validation loss. Patience: 8/30
+Epoch 97 duration: 109.27 seconds
+
+
+Epoch 98/350 loss: 2.7429 - accuracy: 0.9848 - precision: 0.9849 - recall: 0.9846 - val_loss: 2.7995 - val_accuracy: 0.9649 - val_precision: 0.9648 - val_recall: 0.9634
+No improvement in validation loss. Patience: 9/30
+Epoch 98 duration: 109.41 seconds
+
+
+Epoch 99/350 loss: 2.7378 - accuracy: 0.9876 - precision: 0.9879 - recall: 0.9872 - val_loss: 3.0732 - val_accuracy: 0.8366 - val_precision: 0.8428 - val_recall: 0.8351
+No improvement in validation loss. Patience: 10/30
+Epoch 99 duration: 109.64 seconds
+
+
+Epoch 100/350 loss: 2.7378 - accuracy: 0.9874 - precision: 0.9879 - recall: 0.9872 - val_loss: 2.7897 - val_accuracy: 0.9588 - val_precision: 0.9588 - val_recall: 0.9588
+No improvement in validation loss. Patience: 11/30
+Epoch 100 duration: 109.64 seconds
+
+
+Epoch 101/350 loss: 2.7322 - accuracy: 0.9919 - precision: 0.9921 - recall: 0.9918 - val_loss: 2.8858 - val_accuracy: 0.9374 - val_precision: 0.9374 - val_recall: 0.9374
+No improvement in validation loss. Patience: 12/30
+Epoch 101 duration: 109.71 seconds
+
+
+Epoch 102/350 loss: 2.7268 - accuracy: 0.9954 - precision: 0.9954 - recall: 0.9954 - val_loss: 2.7713 - val_accuracy: 0.9740 - val_precision: 0.9740 - val_recall: 0.9725
+No improvement in validation loss. Patience: 13/30
+Epoch 102 duration: 109.55 seconds
+
+
+Epoch 103/350 loss: 2.7307 - accuracy: 0.9930 - precision: 0.9930 - recall: 0.9930 - val_loss: 2.7740 - val_accuracy: 0.9710 - val_precision: 0.9710 - val_recall: 0.9710
+No improvement in validation loss. Patience: 14/30
+Epoch 103 duration: 109.67 seconds
+
+
+Epoch 104/350 loss: 2.7341 - accuracy: 0.9916 - precision: 0.9919 - recall: 0.9914 - val_loss: 2.9333 - val_accuracy: 0.9008 - val_precision: 0.9021 - val_recall: 0.9008
+No improvement in validation loss. Patience: 15/30
+Epoch 104 duration: 109.59 seconds
+
+
+Epoch 105/350 loss: 2.7396 - accuracy: 0.9867 - precision: 0.9867 - recall: 0.9865 - val_loss: 2.7681 - val_accuracy: 0.9756 - val_precision: 0.9755 - val_recall: 0.9740
+No improvement in validation loss. Patience: 16/30
+Epoch 105 duration: 109.37 seconds
+
+
+Epoch 106/350 loss: 2.7350 - accuracy: 0.9904 - precision: 0.9909 - recall: 0.9898 - val_loss: 2.8133 - val_accuracy: 0.9542 - val_precision: 0.9557 - val_recall: 0.9542
+No improvement in validation loss. Patience: 17/30
+Epoch 106 duration: 109.11 seconds
+
+
+Epoch 107/350 loss: 2.7309 - accuracy: 0.9914 - precision: 0.9919 - recall: 0.9914 - val_loss: 3.2422 - val_accuracy: 0.8092 - val_precision: 0.8089 - val_recall: 0.8076
+No improvement in validation loss. Patience: 18/30
+Epoch 107 duration: 109.64 seconds
+
+
+Epoch 108/350 loss: 2.7335 - accuracy: 0.9905 - precision: 0.9907 - recall: 0.9904 - val_loss: 2.7785 - val_accuracy: 0.9725 - val_precision: 0.9755 - val_recall: 0.9725
+No improvement in validation loss. Patience: 19/30
+Epoch 108 duration: 109.46 seconds
+
+
+Epoch 109/350 loss: 2.7271 - accuracy: 0.9960 - precision: 0.9960 - recall: 0.9956 - val_loss: 2.7830 - val_accuracy: 0.9771 - val_precision: 0.9771 - val_recall: 0.9771
+No improvement in validation loss. Patience: 20/30
+Epoch 109 duration: 109.60 seconds
+
+
+Epoch 110/350 loss: 2.7290 - accuracy: 0.9947 - precision: 0.9949 - recall: 0.9946 - val_loss: 2.7624 - val_accuracy: 0.9802 - val_precision: 0.9802 - val_recall: 0.9802
+No improvement in validation loss. Patience: 21/30
+Epoch 110 duration: 109.53 seconds
+
+
+Epoch 111/350 loss: 2.7354 - accuracy: 0.9876 - precision: 0.9879 - recall: 0.9874 - val_loss: 2.8067 - val_accuracy: 0.9511 - val_precision: 0.9526 - val_recall: 0.9511
+No improvement in validation loss. Patience: 22/30
+Epoch 111 duration: 109.48 seconds
+
+
+Epoch 112/350 loss: 2.7366 - accuracy: 0.9879 - precision: 0.9884 - recall: 0.9876 - val_loss: 2.9011 - val_accuracy: 0.9069 - val_precision: 0.9083 - val_recall: 0.9069
+No improvement in validation loss. Patience: 23/30
+Epoch 112 duration: 109.53 seconds
+
+
+Epoch 113/350 loss: 2.7398 - accuracy: 0.9863 - precision: 0.9867 - recall: 0.9856 - val_loss: 2.8589 - val_accuracy: 0.9481 - val_precision: 0.9495 - val_recall: 0.9481
+No improvement in validation loss. Patience: 24/30
+Epoch 113 duration: 109.50 seconds
+
+
+Epoch 114/350 loss: 2.7320 - accuracy: 0.9914 - precision: 0.9916 - recall: 0.9911 - val_loss: 2.7547 - val_accuracy: 0.9863 - val_precision: 0.9863 - val_recall: 0.9863
+No improvement in validation loss. Patience: 25/30
+Epoch 114 duration: 109.66 seconds
+
+
+Epoch 115/350 loss: 2.7270 - accuracy: 0.9953 - precision: 0.9954 - recall: 0.9951 - val_loss: 2.7651 - val_accuracy: 0.9710 - val_precision: 0.9710 - val_recall: 0.9710
+No improvement in validation loss. Patience: 26/30
+Epoch 115 duration: 109.47 seconds
+
+
+Epoch 116/350 loss: 2.7345 - accuracy: 0.9912 - precision: 0.9916 - recall: 0.9912 - val_loss: 2.7754 - val_accuracy: 0.9771 - val_precision: 0.9771 - val_recall: 0.9756
+No improvement in validation loss. Patience: 27/30
+Epoch 116 duration: 109.35 seconds
+
+
+Epoch 117/350 loss: 2.7339 - accuracy: 0.9914 - precision: 0.9916 - recall: 0.9909 - val_loss: 2.8513 - val_accuracy: 0.9481 - val_precision: 0.9481 - val_recall: 0.9481
+No improvement in validation loss. Patience: 28/30
+Epoch 117 duration: 109.45 seconds
+
+
+Epoch 118/350 loss: 2.7267 - accuracy: 0.9960 - precision: 0.9960 - recall: 0.9958 - val_loss: 2.7936 - val_accuracy: 0.9664 - val_precision: 0.9664 - val_recall: 0.9664
+No improvement in validation loss. Patience: 29/30
+Epoch 118 duration: 109.53 seconds
+
+
+Epoch 119/350 loss: 2.7272 - accuracy: 0.9958 - precision: 0.9958 - recall: 0.9956 - val_loss: 2.7730 - val_accuracy: 0.9695 - val_precision: 0.9709 - val_recall: 0.9695
+No improvement in validation loss. Patience: 30/30Early stopping triggered.Test phase duration: 2.60 seconds
+Test Loss: 0.1104, Test Accuracy: 0.9619, Test Precision: 0.9634, Test Recall: 0.9619
